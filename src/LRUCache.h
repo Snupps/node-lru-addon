@@ -5,14 +5,8 @@
 #include <nan.h>
 #include <string>
 #include <list>
-
-#ifdef __APPLE__
-#include <tr1/unordered_map>
-#define unordered_map std::tr1::unordered_map
-#else
 #include <unordered_map>
 #define unordered_map std::unordered_map
-#endif
 
 using namespace v8;
 
